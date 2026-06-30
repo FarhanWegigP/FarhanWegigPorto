@@ -4,6 +4,20 @@ import Button from "../../components/button/Button";
 import {openSource, socialMediaLinks} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
 import Loading from "../../containers/loading/Loading";
+
+const fallbackRepos = (openSource.projects || []).map((project, i) => ({
+  node: {
+    id: `fallback-${i}`,
+    name: project.name,
+    description: project.description,
+    url: project.url,
+    forkCount: 0,
+    stargazers: {totalCount: 0},
+    diskUsage: 0,
+    primaryLanguage: project.primaryLanguage || null
+  }
+}));
+
 export default function Projects() {
   const GithubRepoCard = lazy(() =>
     import("../../components/githubRepoCard/GithubRepoCard")
@@ -24,7 +38,8 @@ export default function Projects() {
           throw result;
         })
         .then(response => {
-          setrepoFunction(response.data.user.pinnedItems.edges);
+          const pinned = response.data.user.pinnedItems.edges;
+          setrepoFunction(pinned.length > 0 ? pinned : fallbackRepos);
         })
         .catch(function (error) {
           console.error(
