@@ -25,7 +25,7 @@ const greeting = {
   subTitle: emoji(
     "A Data Science student passionate about AI systems, RAG pipelines, and building end-to-end data applications."
   ),
-  resumeLink: "", // Set to empty to hide the button
+  resumeLink: "https://drive.google.com/file/d/1pB05UPKBOQvd3TjFm6T1dJoq7o9-7SkJ/view", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
