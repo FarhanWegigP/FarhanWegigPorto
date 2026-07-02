@@ -342,8 +342,8 @@ const achievementSection = {
       imageAlt: "Publication",
       footerLink: [
         {
-          name: "DOI",
-          url: "https://doi.org/10.47065/josh.v7i2.8911"
+          name: "Article",
+          url: "https://ejurnal.seminar-id.com/index.php/josh/article/view/8911"
         }
       ]
     },
