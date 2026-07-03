@@ -411,7 +411,7 @@ const resumeSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Reach Out to me!"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+62-813-2659-5369",
