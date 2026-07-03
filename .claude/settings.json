@@ -5,7 +5,27 @@
       "WebSearch",
       "Bash(tasklist)",
       "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000)",
-      "Bash(npm run *)"
+      "Bash(npm run *)",
+      "Skill(run)",
+      "Skill(run:*)",
+      "Bash(which chromium-cli *)",
+      "Read(//c/Users/Tio/.claude/**)",
+      "Read(//d//**)",
+      "Read(//c/Users/Tio/**)",
+      "Bash(node -e \"console.log\\(require.resolve\\('playwright'\\)\\)\")",
+      "Bash(npm ls *)",
+      "Bash(npx --yes playwright-core --version)",
+      "Bash(CHROME_PATH=\"C:/Users/Tio/AppData/Local/ms-playwright/chromium-1228/chrome-win64/chrome.exe\" npx --yes playwright-core node \"/c/Users/Tio/AppData/Local/Temp/claude/d--tio-webporto/2ebe60ef-1cdd-4fe1-a8af-b579433ee325/scratchpad/shot.mjs\")",
+      "Bash(npm init *)",
+      "Bash(CHROME_PATH=\"C:/Users/Tio/AppData/Local/ms-playwright/chromium-1228/chrome-win64/chrome.exe\" node shot.mjs light.png dark.png)",
+      "Bash(curl -s http://localhost:3000)",
+      "Bash(sed -i 's/localhost:3000/localhost:3001/' shot.mjs)",
+      "Bash(CHROME_PATH=\"C:/Users/Tio/AppData/Local/ms-playwright/chromium-1228/chrome-win64/chrome.exe\" node debug.mjs)",
+      "Bash(CHROME_PATH=\"C:/Users/Tio/AppData/Local/ms-playwright/chromium-1228/chrome-win64/chrome.exe\" node shot.mjs light2.png dark2.png)",
+      "Bash(PORT=3001 BROWSER=none nohup npm start)",
+      "Bash(timeout 60 bash -c 'until curl -sf http://localhost:3001 >/dev/null 2>&1; do sleep 1; done')",
+      "Bash(CHROME_PATH=\"C:/Users/Tio/AppData/Local/ms-playwright/chromium-1228/chrome-win64/chrome.exe\" node shot.mjs light3.png dark3.png)",
+      "Bash(CHROME_PATH=\"C:/Users/Tio/AppData/Local/ms-playwright/chromium-1228/chrome-win64/chrome.exe\" node shot.mjs light4.png dark4.png)"
     ]
   }
 }
