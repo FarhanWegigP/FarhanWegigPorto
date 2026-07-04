@@ -25,7 +25,9 @@
       "Bash(PORT=3001 BROWSER=none nohup npm start)",
       "Bash(timeout 60 bash -c 'until curl -sf http://localhost:3001 >/dev/null 2>&1; do sleep 1; done')",
       "Bash(CHROME_PATH=\"C:/Users/Tio/AppData/Local/ms-playwright/chromium-1228/chrome-win64/chrome.exe\" node shot.mjs light3.png dark3.png)",
-      "Bash(CHROME_PATH=\"C:/Users/Tio/AppData/Local/ms-playwright/chromium-1228/chrome-win64/chrome.exe\" node shot.mjs light4.png dark4.png)"
+      "Bash(CHROME_PATH=\"C:/Users/Tio/AppData/Local/ms-playwright/chromium-1228/chrome-win64/chrome.exe\" node shot.mjs light4.png dark4.png)",
+      "Bash(git ls-remote *)",
+      "Bash(git check-ignore *)"
     ]
   }
 }
